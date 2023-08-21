@@ -1,0 +1,20 @@
+{
+  "ill_never_break_your_heart": {
+    "subtitle": "subtitles.ill_never_break_your_heart_music_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/ill_never_break_your_heart",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_test": {
+    "subtitle": "hi",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/calm4",
+        "stream": true
+      }
+    ]
+  }
+}
