@@ -11,7 +11,7 @@ public class illNeverBreakYourHeartMusicDisc extends RecordItem {
 
     public illNeverBreakYourHeartMusicDisc() {
         super(1, DiscSoundEventsHandler.ILL_NEVER_BREAK_YOUR_HEART_MUSIC_DISC_EVENT,
-                new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
+                new Item.Properties().stacksTo(1).rarity(Rarity.EPIC), 8000);
     }
 
     @Override
