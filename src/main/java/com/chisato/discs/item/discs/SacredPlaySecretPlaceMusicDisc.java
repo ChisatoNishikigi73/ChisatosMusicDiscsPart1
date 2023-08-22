@@ -1,6 +1,6 @@
 package com.chisato.discs.item.discs;
 
-import com.chisato.discs.item.Handler.DiscSoundEvents;
+import com.chisato.discs.item.Handler.DiscSoundEventsHandler;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
@@ -13,7 +13,7 @@ import java.util.List;
 public class SacredPlaySecretPlaceMusicDisc extends RecordItem {
 
     public SacredPlaySecretPlaceMusicDisc() {
-        super(1, DiscSoundEvents.SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_EVENT,
+        super(1, DiscSoundEventsHandler.SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_EVENT,
                 new Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
     }
 

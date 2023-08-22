@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import static com.chisato.discs.Chisato_sMusicDiscs.MODID;
 
-public class DiscSoundEvents {
+public class DiscSoundEventsHandler {
     private static final DeferredRegister<SoundEvent> DISC_EVENTS;
 
     public static final RegistryObject<SoundEvent> MUSIC_DISC_TEST_EVENT;

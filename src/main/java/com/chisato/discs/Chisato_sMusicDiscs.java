@@ -1,8 +1,8 @@
 package com.chisato.discs;
 
-import com.chisato.discs.item.Handler.DiscSoundEvents;
-import com.chisato.discs.item.Handler.DiscSoundItems;
-import com.chisato.discs.item.Handler.DiscSoundTab;
+import com.chisato.discs.item.Handler.DiscItemsHandler;
+import com.chisato.discs.item.Handler.DiscItemsTabHandler;
+import com.chisato.discs.item.Handler.DiscSoundEventsHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -14,9 +14,9 @@ public class Chisato_sMusicDiscs {
 
     public Chisato_sMusicDiscs() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        DiscSoundItems.register(modEventBus);
-        DiscSoundEvents.register(modEventBus);
-        DiscSoundTab.register(modEventBus);
+        DiscItemsHandler.register(modEventBus);
+        DiscSoundEventsHandler.register(modEventBus);
+        DiscItemsTabHandler.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 }

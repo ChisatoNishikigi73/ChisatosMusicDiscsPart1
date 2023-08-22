@@ -1,6 +1,6 @@
 package com.chisato.discs.item.discs;
 
-import com.chisato.discs.item.Handler.DiscSoundEvents;
+import com.chisato.discs.item.Handler.DiscSoundEventsHandler;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
@@ -13,7 +13,7 @@ import java.util.List;
 public class ShitsurenSongTakusanKiiTeNaiTeBakariNoWatashiHamouMusicDisc extends RecordItem {
 
     public ShitsurenSongTakusanKiiTeNaiTeBakariNoWatashiHamouMusicDisc() {
-        super(1, DiscSoundEvents.SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_EVENT,
+        super(1, DiscSoundEventsHandler.SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_EVENT,
                 new Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
     }
 

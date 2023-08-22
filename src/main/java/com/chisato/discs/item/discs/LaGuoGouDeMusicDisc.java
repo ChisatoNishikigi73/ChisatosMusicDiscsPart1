@@ -1,6 +1,6 @@
 package com.chisato.discs.item.discs;
 
-import com.chisato.discs.item.Handler.DiscSoundEvents;
+import com.chisato.discs.item.Handler.DiscSoundEventsHandler;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
@@ -13,7 +13,7 @@ import java.util.List;
 public class LaGuoGouDeMusicDisc extends RecordItem {
 
     public LaGuoGouDeMusicDisc() {
-        super(1, DiscSoundEvents.LA_GUO_GOU_DE_MUSIC_DISC_EVENT,
+        super(1, DiscSoundEventsHandler.LA_GUO_GOU_DE_MUSIC_DISC_EVENT,
                 new Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
     }
 
