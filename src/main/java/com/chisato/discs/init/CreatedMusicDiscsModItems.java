@@ -24,8 +24,8 @@ public class CreatedMusicDiscsModItems {
 
     public static void addCreativeTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-        event.accept(DISC_FRAGMENT);
-        event.accept(EMPTY_MUSIC_DISC);
+            event.accept(DISC_FRAGMENT);
+            event.accept(EMPTY_MUSIC_DISC);
 //        event.accept(ILL_NEVER_BREAK_YOUR_HEART_MUSIC_DISC);
         }
     }

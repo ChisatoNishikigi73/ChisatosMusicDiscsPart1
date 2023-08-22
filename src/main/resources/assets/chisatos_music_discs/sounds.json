@@ -1,4 +1,13 @@
 {
+  "music_disc_test": {
+    "subtitle": "hi",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/calm4",
+        "stream": true
+      }
+    ]
+  },
   "ill_never_break_your_heart": {
     "subtitle": "subtitles.ill_never_break_your_heart_music_disc",
     "sounds": [
@@ -8,11 +17,65 @@
       }
     ]
   },
-  "music_disc_test": {
-    "subtitle": "hi",
+  "golden_hour": {
+    "subtitle": "subtitles.golden_hour_disc",
     "sounds": [
       {
-        "name": "chisatos_music_discs:records/calm4",
+        "name": "chisatos_music_discs:records/golden_hour",
+        "stream": true
+      }
+    ]
+  },
+  "hu_die": {
+    "subtitle": "subtitles.hu_die_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/hu_die",
+        "stream": true
+      }
+    ]
+  },
+  "i_really_want_to_stay_at_your_house": {
+    "subtitle": "subtitles.i_really_want_to_stay_at_your_house_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/i_really_want_to_stay_at_your_house",
+        "stream": true
+      }
+    ]
+  },
+  "kai_natsu": {
+    "subtitle": "subtitles.kai_natsu_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/kai_natsu",
+        "stream": true
+      }
+    ]
+  },
+  "la_guo_gou_de": {
+    "subtitle": "subtitles.la_guo_gou_de_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/la_guo_gou_de",
+        "stream": true
+      }
+    ]
+  },
+  "sacred_play_secret_place": {
+    "subtitle": "subtitles.sacred_play_secret_place_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/sacred_play_secret_place",
+        "stream": true
+      }
+    ]
+  },
+  "shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou": {
+    "subtitle": "subtitles.shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou",
         "stream": true
       }
     ]
