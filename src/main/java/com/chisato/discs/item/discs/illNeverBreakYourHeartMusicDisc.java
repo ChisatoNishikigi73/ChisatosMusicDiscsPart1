@@ -1,6 +1,6 @@
 package com.chisato.discs.item.discs;
 
-import com.chisato.discs.item.Handler.DiscSoundEventsHandler;
+import com.chisato.discs.handler.DiscSoundEventsHandler;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;

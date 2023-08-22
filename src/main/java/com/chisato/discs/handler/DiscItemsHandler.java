@@ -1,4 +1,4 @@
-package com.chisato.discs.item.Handler;
+package com.chisato.discs.handler;
 
 import com.chisato.discs.item.discs.*;
 import net.minecraft.world.item.Item;

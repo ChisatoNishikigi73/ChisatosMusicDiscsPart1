@@ -1,4 +1,4 @@
-package com.chisato.discs.item.Handler;
+package com.chisato.discs.handler;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;

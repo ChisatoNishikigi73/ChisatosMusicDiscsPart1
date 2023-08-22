@@ -1,8 +1,8 @@
 package com.chisato.discs;
 
-import com.chisato.discs.item.Handler.DiscItemsHandler;
-import com.chisato.discs.item.Handler.DiscItemsTabHandler;
-import com.chisato.discs.item.Handler.DiscSoundEventsHandler;
+import com.chisato.discs.handler.DiscItemsHandler;
+import com.chisato.discs.handler.DiscItemsTabHandler;
+import com.chisato.discs.handler.DiscSoundEventsHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
