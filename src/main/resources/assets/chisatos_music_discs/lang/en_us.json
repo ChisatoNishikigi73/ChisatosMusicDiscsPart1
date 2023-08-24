@@ -3,10 +3,12 @@
   "subtitles.golden_hour_music_disc": "Golden Hour - JVKE",
   "subtitles.hu_die_music_disc": "蝴蝶 - 陶喆",
   "subtitles.i_really_want_to_stay_at_your_house_music_disc": "I Really Want to Stay At Your House - Rosa Walton",
-  "subtitles.kai_natsu_music_disc": "回夏 - cadode",
   "subtitles.la_guo_gou_de_music_disc": "拉过勾的 - 陆虎",
   "subtitles.sacred_play_secret_place_music_disc": "Sacred Play Secret Place - Matryoshka",
   "subtitles.shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc": "失恋ソング沢山聴いて 泣いてばかりの私はもう - りりあ",
+  "subtitles.wonderful_u_music_disc": "Wonderful U - AGA",
+  "subtitles.you_wo_ne_music_disc": "有我呢 - 郭一凡",
+  "subtitles.xuan_ni_music_disc": "悬溺 - 葛东琪",
   "itemGroup.tabchisatos_music_discs": "Chisato's Music Discs",
   "item.chisatos_music_discs.disc_fragment": "Disc Fragment",
   "item.chisatos_music_discs.empty_music_disc": "Empty Music Disc",
@@ -18,6 +20,9 @@
   "item.chisatos_music_discs.la_guo_gou_de_music_disc.desc": "拉过勾的 - 陆虎",
   "item.chisatos_music_discs.sacred_play_secret_place_music_disc.desc": "Sacred Play Secret Place - Matryoshka",
   "item.chisatos_music_discs.shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc.desc": "失恋ソング沢山聴いて 泣いてばかりの私はもう - りりあ",
+  "item.chisatos_music_discs.wonderful_u_music_disc.desc": "Wonderful U - AGA",
+  "item.chisatos_music_discs.you_wo_ne_music_disc.desc": "有我呢 - 郭一凡",
+  "item.chisatos_music_discs.xuan_ni_music_disc.desc": "悬溺 - 葛东琪",
   "item.chisatos_music_discs.ill_never_break_your_heart_music_disc": "音乐唱片",
   "item.chisatos_music_discs.golden_hour_music_disc": "音乐唱片",
   "item.chisatos_music_discs.hu_die_music_disc": "音乐唱片",
@@ -25,5 +30,8 @@
   "item.chisatos_music_discs.kai_natsu_music_disc": "音乐唱片",
   "item.chisatos_music_discs.la_guo_gou_de_music_disc": "音乐唱片",
   "item.chisatos_music_discs.sacred_play_secret_place_music_disc": "音乐唱片",
-  "item.chisatos_music_discs.shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc": "音乐唱片"
+  "item.chisatos_music_discs.shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc": "音乐唱片",
+  "item.chisatos_music_discs.wonderful_u_music_disc": "Wonderful U - AGA",
+  "item.chisatos_music_discs.you_wo_ne_music_disc": "有我呢 - 郭一凡",
+  "item.chisatos_music_discs.xuan_ni_music_disc": "悬溺 - 葛东琪"
 }

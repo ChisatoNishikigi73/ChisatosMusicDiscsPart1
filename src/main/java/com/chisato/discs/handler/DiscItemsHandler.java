@@ -19,10 +19,13 @@ public class DiscItemsHandler {
     public static final RegistryObject<Item> GOLDEN_HOUR_MUSIC_DISC_ITEM;
     public static final RegistryObject<Item> HU_DIE_MUSIC_DISC_ITEM;
     public static final RegistryObject<Item> I_REALLY_WANT_TO_STAY_AT_YOUR_HOUSE_MUSIC_DISC_ITEM;
-    public static final RegistryObject<Item> KAI_NATSU_MUSIC_DISC_ITEM;
     public static final RegistryObject<Item> LA_GUO_GOU_DE_MUSIC_DISC_ITEM;
     public static final RegistryObject<Item> SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_ITEM;
     public static final RegistryObject<Item> SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_ITEM;
+    public static final RegistryObject<Item> WONDERFUL_U_MUSIC_DISC_ITEM;
+    public static final RegistryObject<Item> YOU_WO_NE_MUSIC_DISC_ITEM;
+    public static final RegistryObject<Item> XUAN_NI_MUSIC_DISC_ITEM;
+    public static final RegistryObject<Item> ADVANCEMENT_ITEM;
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
@@ -37,10 +40,13 @@ public class DiscItemsHandler {
         GOLDEN_HOUR_MUSIC_DISC_ITEM = ITEMS.register("golden_hour_music_disc", GoldenHourMusicDisc::new);
         HU_DIE_MUSIC_DISC_ITEM = ITEMS.register("hu_die_music_disc", HuDieMusicDisc::new);
         I_REALLY_WANT_TO_STAY_AT_YOUR_HOUSE_MUSIC_DISC_ITEM = ITEMS.register("i_really_want_to_stay_at_your_house_music_disc", IReallyWantToStayAtYourHouseMusicDisc::new);
-        KAI_NATSU_MUSIC_DISC_ITEM = ITEMS.register("kai_natsu_music_disc", KaiNatsuMusicDisc::new);
         LA_GUO_GOU_DE_MUSIC_DISC_ITEM = ITEMS.register("la_guo_gou_de_music_disc", LaGuoGouDeMusicDisc::new);
         SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_ITEM = ITEMS.register("sacred_play_secret_place_music_disc", SacredPlaySecretPlaceMusicDisc::new);
         SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_ITEM = ITEMS.register("shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc", ShitsurenSongTakusanKiiTeNaiTeBakariNoWatashiHamouMusicDisc::new);
+        WONDERFUL_U_MUSIC_DISC_ITEM = ITEMS.register("wonderful_u_music_disc", WonderfulUMusicDisc::new);
+        YOU_WO_NE_MUSIC_DISC_ITEM = ITEMS.register("you_wo_ne_music_disc", YouWoNeMusicDisc::new);
+        XUAN_NI_MUSIC_DISC_ITEM = ITEMS.register("xuan_ni_music_disc", XuanNiMusicDisc::new);
+        ADVANCEMENT_ITEM = ITEMS.register("advancement", AdvancementItem::new);
     }
 
     public DiscItemsHandler() {

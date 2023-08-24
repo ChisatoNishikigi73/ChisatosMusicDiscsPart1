@@ -17,10 +17,13 @@ public class DiscSoundEventsHandler {
     public static final RegistryObject<SoundEvent> GOLDEN_HOUR_MUSIC_DISC_EVENT;
     public static final RegistryObject<SoundEvent> HU_DIE_MUSIC_DISC_EVENT;
     public static final RegistryObject<SoundEvent> I_REALLY_WANT_TO_STAY_AT_YOUR_HOUSE_MUSIC_DISC_EVENT;
-    public static final RegistryObject<SoundEvent> KAI_NATSU_MUSIC_DISC_EVENT;
     public static final RegistryObject<SoundEvent> LA_GUO_GOU_DE_MUSIC_DISC_EVENT;
     public static final RegistryObject<SoundEvent> SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_EVENT;
     public static final RegistryObject<SoundEvent> SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_EVENT;
+    public static final RegistryObject<SoundEvent> XUAN_NI_MUSIC_DISC_EVENT;
+    public static final RegistryObject<SoundEvent> YOU_WO_NE_MUSIC_DISC_EVENT;
+    public static final RegistryObject<SoundEvent> WONDERFUL_U_MUSIC_DISC_EVENT;
+
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         return DISC_EVENTS.register(name, () -> SoundEvent.createFixedRangeEvent(new ResourceLocation(MODID, name), 75.0F));
@@ -37,9 +40,11 @@ public class DiscSoundEventsHandler {
         GOLDEN_HOUR_MUSIC_DISC_EVENT = registerSoundEvent("golden_hour");
         HU_DIE_MUSIC_DISC_EVENT = registerSoundEvent("hu_die");
         I_REALLY_WANT_TO_STAY_AT_YOUR_HOUSE_MUSIC_DISC_EVENT = registerSoundEvent("i_really_want_to_stay_at_your_house");
-        KAI_NATSU_MUSIC_DISC_EVENT = registerSoundEvent("kai_natsu");
         LA_GUO_GOU_DE_MUSIC_DISC_EVENT = registerSoundEvent("la_guo_gou_de");
         SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_EVENT = registerSoundEvent("sacred_play_secret_place");
         SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_EVENT = registerSoundEvent("shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou");
+        XUAN_NI_MUSIC_DISC_EVENT = registerSoundEvent("xuan_ni");
+        YOU_WO_NE_MUSIC_DISC_EVENT = registerSoundEvent("you_wo_ne");
+        WONDERFUL_U_MUSIC_DISC_EVENT = registerSoundEvent("wonderful_u");
     }
 }

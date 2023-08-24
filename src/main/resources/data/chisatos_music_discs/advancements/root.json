@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "chisatos_music_discs:advancement"
+    },
+    "title": "Chisato's Music Discs",
+    "description": "Chisato的唱片",
+    "background": "chisatos_music_discs:textures/gui/advancements/backgrounds/root.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chisatos_music_discs:ill_never_break_your_heart_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

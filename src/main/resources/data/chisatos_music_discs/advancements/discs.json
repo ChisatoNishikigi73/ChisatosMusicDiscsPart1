@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "chisatos_music_discs:advancement"
+    },
+    "title": "谢谢你",
+    "description": "收集Chisato的所有唱片",
+    "background": "chisatos_music_discs:textures/gui/advancements/backgrounds/root.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "chisatos_music_discs:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chisatos_music_discs:ill_never_break_your_heart_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5200
+  },
+  "sends_telemetry_event": true
+}

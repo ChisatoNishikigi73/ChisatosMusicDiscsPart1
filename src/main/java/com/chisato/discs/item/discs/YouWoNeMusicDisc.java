@@ -10,18 +10,18 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-public class KaiNatsuMusicDisc extends RecordItem {
+public class YouWoNeMusicDisc extends RecordItem {
 
-    public KaiNatsuMusicDisc() {
-        super(1, DiscSoundEventsHandler.KAI_NATSU_MUSIC_DISC_EVENT,
-                new Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
+    public YouWoNeMusicDisc() {
+        super(1, DiscSoundEventsHandler.YOU_WO_NE_MUSIC_DISC_EVENT,
+                new Properties().stacksTo(1).rarity(Rarity.EPIC), 8000);
     }
 
     @Override
     public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
         super.appendHoverText(itemstack, world, list, flag);
         list.add(Component.literal(
-                "“做喜欢的人的同伴有什么不对吗!”"));
+                "“都入冬了还执着于盛夏的蝉鸣吗”"));
 
     }
 }

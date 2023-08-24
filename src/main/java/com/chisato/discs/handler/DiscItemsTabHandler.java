@@ -22,11 +22,14 @@ public class DiscItemsTabHandler {
                         }).displayItems((enabledFlags, populator) -> {
                             populator.accept(DiscItemsHandler.ILL_NEVER_BREAK_YOUR_HEART_MUSIC_DISC_ITEM.get());
                             populator.accept(DiscItemsHandler.GOLDEN_HOUR_MUSIC_DISC_ITEM.get());
+                            populator.accept(DiscItemsHandler.HU_DIE_MUSIC_DISC_ITEM.get());
                             populator.accept(DiscItemsHandler.I_REALLY_WANT_TO_STAY_AT_YOUR_HOUSE_MUSIC_DISC_ITEM.get());
-                            populator.accept(DiscItemsHandler.KAI_NATSU_MUSIC_DISC_ITEM.get());
                             populator.accept(DiscItemsHandler.LA_GUO_GOU_DE_MUSIC_DISC_ITEM.get());
                             populator.accept(DiscItemsHandler.SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_ITEM.get());
                             populator.accept(DiscItemsHandler.SHITSUREN_SONG_TAKUSAN_KII_TE_NAI_TE_BAKARI_NO_WATASHI_HAMOU_MUSIC_DISC_ITEM.get());
+                            populator.accept(DiscItemsHandler.WONDERFUL_U_MUSIC_DISC_ITEM.get());
+                            populator.accept(DiscItemsHandler.YOU_WO_NE_MUSIC_DISC_ITEM.get());
+                            populator.accept(DiscItemsHandler.XUAN_NI_MUSIC_DISC_ITEM.get());
                         })
                         .build());
     }

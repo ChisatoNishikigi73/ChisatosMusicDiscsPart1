@@ -14,7 +14,9 @@ public class LaGuoGouDeMusicDisc extends RecordItem {
 
     public LaGuoGouDeMusicDisc() {
         super(1, DiscSoundEventsHandler.LA_GUO_GOU_DE_MUSIC_DISC_EVENT,
-                new Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
+                new Properties().stacksTo(1).rarity(Rarity.EPIC
+
+                ), 8000);
     }
 
     @Override

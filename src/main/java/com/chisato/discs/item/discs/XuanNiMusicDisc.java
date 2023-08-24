@@ -10,18 +10,18 @@ import net.minecraft.world.level.Level;
 
 import java.util.List;
 
-public class SacredPlaySecretPlaceMusicDisc extends RecordItem {
+public class XuanNiMusicDisc extends RecordItem {
 
-    public SacredPlaySecretPlaceMusicDisc() {
-        super(1, DiscSoundEventsHandler.SACRED_PLAY_SECRET_PLACE_MUSIC_DISC_EVENT,
-                new Properties().stacksTo(1).rarity(Rarity.RARE), 8000);
+    public XuanNiMusicDisc() {
+        super(1, DiscSoundEventsHandler.XUAN_NI_MUSIC_DISC_EVENT,
+                new Properties().stacksTo(1).rarity(Rarity.EPIC), 8000);
     }
 
     @Override
     public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
         super.appendHoverText(itemstack, world, list, flag);
         list.add(Component.literal(
-                "“我从未觉得孤独，我听见我的身体里刮起一阵狂风，说的浪漫点，我完全自由”"));
+                "“悬溺一响 纯爱登场”"));
 
     }
 }

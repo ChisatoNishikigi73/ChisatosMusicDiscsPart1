@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "chisatos_music_discs:i_really_want_to_stay_at_your_house_music_disc"
+    },
+    "title": "我要带你到月球上去，我答应你！",
+    "description": "收集《I Really Want to Stay At Your House》唱片",
+    "background": "chisatos_music_discs:textures/gui/advancements/backgrounds/root.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "chisatos_music_discs:start_of_discs",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chisatos_music_discs:i_really_want_to_stay_at_your_house_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 520
+  },
+  "sends_telemetry_event": false
+}

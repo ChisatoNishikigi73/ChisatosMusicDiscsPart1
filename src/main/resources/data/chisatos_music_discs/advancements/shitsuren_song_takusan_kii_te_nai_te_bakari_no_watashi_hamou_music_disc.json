@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "chisatos_music_discs:shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc"
+    },
+    "title": "我修改了结局",
+    "description": "收集《失恋ソング沢山聴いて 泣いてばかりの私はもう》唱片",
+    "background": "chisatos_music_discs:textures/gui/advancements/backgrounds/root.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "chisatos_music_discs:start_of_discs",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chisatos_music_discs:shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 520
+  },
+  "sends_telemetry_event": false
+}

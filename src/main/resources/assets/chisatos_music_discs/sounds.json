@@ -44,15 +44,6 @@
       }
     ]
   },
-  "kai_natsu": {
-    "subtitle": "subtitles.kai_natsu_disc",
-    "sounds": [
-      {
-        "name": "chisatos_music_discs:records/kai_natsu",
-        "stream": true
-      }
-    ]
-  },
   "la_guo_gou_de": {
     "subtitle": "subtitles.la_guo_gou_de_disc",
     "sounds": [
@@ -76,6 +67,33 @@
     "sounds": [
       {
         "name": "chisatos_music_discs:records/shitsuren_song_takusan_kii_te_nai_te_bakari_no_watashi_hamou",
+        "stream": true
+      }
+    ]
+  },
+  "xuan_ni": {
+    "subtitle": "subtitles.xuan_ni_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/xuan_ni",
+        "stream": true
+      }
+    ]
+  },
+  "you_wo_ne": {
+    "subtitle": "subtitles.you_wo_ne_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/you_wo_ne",
+        "stream": true
+      }
+    ]
+  },
+  "wonderful_u": {
+    "subtitle": "subtitles.wonderful_u_disc",
+    "sounds": [
+      {
+        "name": "chisatos_music_discs:records/wonderful_u",
         "stream": true
       }
     ]

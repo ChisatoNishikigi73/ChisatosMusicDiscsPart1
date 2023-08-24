@@ -21,7 +21,7 @@ public class ShitsurenSongTakusanKiiTeNaiTeBakariNoWatashiHamouMusicDisc extends
     public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
         super.appendHoverText(itemstack, world, list, flag);
         list.add(Component.literal(
-                "“我总感觉，如果这次不回来见她，以后就再也见不到了，所以我只是想再见她一面而已！”"));
+                "“我总感觉，如果这次不回来见她，以后就再也见不到了，所以我只是想再见她一面而已！做喜欢的人的同伴有什么不对吗！”"));
 
     }
 }
